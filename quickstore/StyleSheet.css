@@ -1,0 +1,267 @@
+﻿:root {
+    --bgcolor1: #096dd9;
+    --bgcolor2: white;
+    --text-color1: #096dd9;
+    --text-color2: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--text-color2);
+    font-family: Helvetica, Arial, Corbel, Verdana, sans-serif !important;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.mainbanner {
+    height: 528px;
+    overflow: hidden;
+}
+
+.bannerimg {
+    height: 528px;
+}
+
+.bannertext {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bannertext h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--text-color1);
+}
+
+.navigation {
+    height: 40px;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--text-color2);
+}
+
+.logo:link {
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: var(--text-color2);
+}
+
+#header {
+    background-color: var(--bgcolor1);
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color2) !important;
+}
+
+.content {
+    padding: 20px;
+}
+
+button,
+button:focus {
+    background-color: var(--bgcolor1) !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.collapse {
+    color: var(--text-color1) !important;
+}
+
+.footer {
+    text-decoration: none;
+    color: var(--text-color2) !important;
+    width: 100%;
+    background-color: var(--bgcolor1);
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.error {
+    color: red;
+    margin: auto;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userform {
+    margin-bottom: 25px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.doporucujeme {
+    background-color: var(--bgcolor1);
+    color: var(--text-color2);
+    padding: 1px;
+    padding-left: 10px;
+}
+
+.cena-polozky {
+    position: absolute;
+    bottom: 0;
+}
+
+.card-img-top {
+    max-height: 30vh;
+    object-fit: contain;
+}
+
+.nazev-produkt {
+    color: var(--text-color1) !important;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.produkt-misto {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: var(--text-color1) !important;
+    font-size: 24px;
+}
+
+.popis-produkt {
+    font-size: 20px;
+}
+
+.popis-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.modra {
+    color: var(--text-color1) !important;
+}
+
+.vyska30 {
+    height: 30px;
+}
+
+.spodek {
+    padding-bottom: 30px;
+}
+
+.popis-vrsek {
+    padding-top: 30px;
+}
+
+.filtr-width {
+    width: 180px;
+}
+
+.doporucujeme-filtr {
+    background-color: var(--bgcolor1);
+    color: var(--text-color2);
+    padding: 1px;
+    margin: auto;
+    max-width: 180px;
+}
+
+.filtr-center {
+    text-align: center;
+    padding-top: 3px;
+}
+
+.down {
+    margin-top: 21px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.kosik-jmeno {
+    color: var(--text-color1) !important;
+}
+
+.velikost-top {
+    height: 180px;
+}
+
+.div-button {
+    position: absolute;
+}
+
+.cena-top {
+    padding-top: 37px;
+}
+
+.vyska-cena {
+    height: 140px;
+    text-align: center;
+}
+
+.bannertext2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.objednavka {
+    max-width: 700px;
+}
+
+.stred {
+    margin: 0 auto;
+}
+
+.objednavka-bottom {
+    margin-bottom: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    width: 100%;
+}
